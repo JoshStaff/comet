@@ -16,16 +16,28 @@ class Index {
 
     const test = 'here';
 
-    function noVisibility() {
+    function noVisibility()     {
+
+
+
+
 
     }
 
 
-    private function oneMore($test   = null) {
+    private function oneMore($test   = null)
+
+
+
+
+    {
         return function(...  $args)
         {
            return array_walk($this->more(),function( $param ){
                if( !$param ) {
+
+
+
                    $this->tellAJudge();
                }
            });
