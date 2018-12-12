@@ -1,60 +1,40 @@
 <?php
 
-class Index {
+class Index
+{
 
-    function someDeliberatelyBadCodeStyle()    {
-        return json_encode(   [ 'dog'] );
+    function someDeliberatelyBadCodeStyle()
+    {
+        return json_encode([ 'dog']);
     }
 
-
-    protected function more()     {
+    protected function more()
+    {
         return [
 
-
-            
           'heloo', 'world','okay', 'nomore'
         ];
     }
 
-
     const test = 'here';
 
-    function noVisibility()     {
-
-
-
-
-
-
-
-
-
-
-
+    function noVisibility()
+    {
     }
 
-
-    private function oneMore($test   = null)
-
-
-
-
+    private function oneMore($test = null)
     {
-        return function(...  $args)
-        {
-           return array_walk($this->more(),function( $param ){
-               if( !$param ) {
-
-
-
-                   $this->tellAJudge();
-               }
-           });
+        return function (...  $args) {
+            return array_walk($this->more(), function ($param) {
+                if (!$param) {
+                    $this->tellAJudge();
+                }
+            });
         };
     }
 
-    public function tellAJudge() {
+    public function tellAJudge()
+    {
         return'ok!';
     }
-
 }
