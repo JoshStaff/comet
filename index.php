@@ -3,11 +3,11 @@
 class Index {
 
     function someDeliberatelyBadCodeStyle()    {
-
+        return json_encode(   [ 'dog'] );
     }
 
 
-    protected function more() {
+    protected function more()     {
         return [
           'heloo', 'world','okay', 'nomore'
         ];
@@ -17,6 +17,10 @@ class Index {
     const test = 'here';
 
     function noVisibility()     {
+
+
+
+
 
 
 
