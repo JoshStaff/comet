@@ -14,7 +14,11 @@ class Index {
     }
 
 
-    
+    const test = 'here';
+
+    function noVisibility() {
+
+    }
 
 
     private function oneMore($test   = null) {
