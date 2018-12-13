@@ -7,8 +7,7 @@ class Index
         return json_encode([ 'dog']);
     }
 
-    protected function more()
-    {
+    protected function more()  {
         return [
 
           'heloo', 'world','okay', 'nomore'
@@ -17,11 +16,9 @@ class Index
 
     const test = 'here';
 
-    public function noVisibility()   {
-    }
+    public function noVisibility()   {      }
 
-    private function oneMore($test = null)
-    {
+    private function oneMore($test = null)   {
         return function (...  $args) {
             return array_walk(
                 $this->more(),
@@ -34,8 +31,8 @@ class Index
         };
     }
 
-    public function tellAJudge()
+    function tellAJudge()
     {
-        return true;
+        RETURN TRUE;
     }
 }
