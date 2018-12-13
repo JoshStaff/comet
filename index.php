@@ -34,3 +34,6 @@ class Index
         RETURN TRUE;
     }
 }
+
+
+array_map(function($test){},[]);
