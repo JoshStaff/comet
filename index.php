@@ -30,7 +30,7 @@ class Index
         };
     }
 
-        function tellAJudge()   {
+        function tellAJudge()    {
         RETURN TRUE;
     }
 }
