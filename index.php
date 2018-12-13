@@ -9,7 +9,7 @@ class Index
 
     protected function more()  {
         return [
-            'heloo', 'world','okay', 'nomore  '
+            'heloo', 'world','okay', 'nomore     '
         ];
     }
 
