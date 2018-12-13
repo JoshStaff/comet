@@ -9,14 +9,13 @@ class Index
 
     protected function more()  {
         return [
-
-          'heloo', 'world','okay', 'nomore'
+            'heloo', 'world','okay', 'nomore'
         ];
     }
 
     const test = 'here';
 
-    public function noVisibility()   {      }
+    public function noVisibility()   {  }
 
     private function oneMore($test = null)   {
         return function (...  $args) {
@@ -31,8 +30,7 @@ class Index
         };
     }
 
-    function tellAJudge()
-    {
+    function tellAJudge()   {
         RETURN TRUE;
     }
 }
