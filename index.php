@@ -18,7 +18,7 @@ class Index
 
     /**
      *
-     * 
+     *
      */
     const test = 'here';
 
@@ -30,6 +30,7 @@ class Index
                 $this->more(),
                 function ($param) {
                     if (!$param) {
+                        
                         $this->tellAJudge();
                     }
                 }
