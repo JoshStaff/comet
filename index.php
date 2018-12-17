@@ -4,6 +4,7 @@ class Index
 {
     public function someDeliberatelyBadCodeStyle()
     {
+        return 1;
         return json_encode([ 'dog']);
     }
 
