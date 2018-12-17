@@ -10,7 +10,6 @@ class Index
 
     protected function more()  {
         return [
-
             'heloo', 'world','okay', 'nomore     ',
 
         ];
