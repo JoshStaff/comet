@@ -30,7 +30,6 @@ class Index
                 $this->more(),
                 function ($param) {
                     if (!$param) {
-                        
                         $this->tellAJudge();
                     }
                 }
