@@ -5,10 +5,10 @@ class Index
     public function someDeliberatelyBadCodeStyle()
     {
         return json_encode([ 'dog']);
+
     }
 
 
-    
     protected function more()  {
         return [
 
