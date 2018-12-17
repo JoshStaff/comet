@@ -7,6 +7,7 @@ class Index
         return json_encode([ 'dog']);
     }
 
+
     
     protected function more()  {
         return [
