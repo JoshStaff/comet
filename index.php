@@ -13,9 +13,12 @@ class Index
         ];
     }
 
+    /**
+     * 
+     */
     const test = 'here';
 
-    public function noVisibility()   {      }
+    public function noVisibility()   {     }
 
     private function oneMore($test = null)   {
         return function (...  $args) {
